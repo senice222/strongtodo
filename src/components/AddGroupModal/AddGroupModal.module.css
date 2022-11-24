@@ -1,0 +1,63 @@
+.modalBg {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: var(--default-modal-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);
+    transition: .2s;
+}
+.modalCont {
+    width: 450px;
+    height: 450px;
+    background-color: var(--background-color);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--main-text-color)
+}
+.closed {
+    transform: scale(0);
+    transition: .2s;
+}
+.input {
+    border: var(--border-input);
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    width: 300px;
+    height: 35px;
+    color: var(--input-color-text);
+    padding-left: 3px;
+    font-weight: 1000;
+    font-size: 22px;
+    border-radius: 5px;
+    background-color: var(--input-color);
+    
+}
+.btn {
+    background-color: var(--button-color);
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+@media screen and ( max-width: 420px) {
+    .modalBg {
+        width: 100%;
+    }
+
+}

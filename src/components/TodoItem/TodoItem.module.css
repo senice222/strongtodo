@@ -1,0 +1,32 @@
+.plus {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+    margin-top: 3px;
+
+}
+.input {
+    margin-right: 5px;
+    height: 15px;
+    width: 13px;
+    margin-top: 10px;
+
+}
+.input:before {
+    content: '';
+    background-color: red;
+    border-radius: 5px;
+}
+.item {
+    display: flex;
+    margin-top: 15px;
+    min-height: 100%;
+}
+.icon {
+    color: var(--icon-color);
+    cursor: pointer;
+    margin-left: 5px;
+}

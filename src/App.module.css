@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.stupid {
+  display: none;
+}
+@media screen and (max-width: 420px) {
+  .stupid {
+    display: block;
+    background-color: white;
+  }
+  .App {
+    display: none;
+  }
+  .stupidtext {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+}

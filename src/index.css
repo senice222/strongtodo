@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+html[data-theme='dark'] {
+  --header-color: rgba(45, 45, 45, 1);
+  --header-text-color: rgba(174, 174, 174, 1);
+  --background-color: rgba(40, 40, 40, 1);
+  --text-color: rgba(137, 137, 137, 1);
+  --main-text-color: rgba(116, 116, 116, 1);
+  --background-color-navbar: rgba(34, 34, 34, 1);
+  --icon-color: rgba(165, 165, 165, 1);
+  --line-color: rgba(80, 80, 80, 1);
+  --button-color: rgba(89, 89, 89, 0.8);
+  --default-modal-bg: rgba(70, 70, 70, 0.58);
+  --input-color: #505050;
+  --input-color-text: #cccccc;
+}
+html[data-theme='light'] {
+  --header-color: rgb(220, 60, 60);
+  --header-text-color: white;
+  --background-color: white;
+  --text-color: black;
+  --main-text-color: black;
+  --background-color-navbar: rgba(231, 231, 231, 0.59);
+  --icon-color: rgb(220, 60, 60);
+  --line-color: #b8b7ba;
+  --button-color:rgb(220, 60, 60);
+  --default-modal-bg: rgba(219, 219, 219, 0.58);
+  --border-input: 1px solid red;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+html {
+  min-height: 100vh;
+}

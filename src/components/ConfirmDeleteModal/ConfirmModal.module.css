@@ -1,0 +1,46 @@
+.bg {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: var(--default-modal-bg);
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);
+    transition: .2s;
+}
+.content {
+    width: 500px;
+    height: 400px;
+    background-color: var(--background-color);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 110px;
+    color: var(--text-color);
+    text-align: center;
+}
+.button {
+    background-color: var(--button-color);
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.buttondiv {
+    display: flex;
+}
+.closed {
+    transform: scale(0);
+    transition: .2s;
+}

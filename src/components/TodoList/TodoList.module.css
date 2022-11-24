@@ -1,0 +1,31 @@
+.title {
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.add {
+    font-family: 'Montserrat', sans-serif;
+    color: #7f827b;
+    cursor: pointer;
+}
+.nameOfGroup {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+    padding-top: 40px;
+    font-size: 35px;
+    color: var(--main-text-color)
+}
+
+.items {
+    margin-left: 40px;
+}
+.add {
+    margin-left: 40px;
+    padding-top: 20px;
+}
+.div {
+    background-color: var(--background-color);
+    width: 100%;
+    min-height: 100vh;
+
+}
